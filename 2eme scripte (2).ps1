@@ -1,0 +1,15 @@
+# la il demande quelle endroit l'utilisateur veut ( le chemin)
+$chemin = Read-Host "Entrez le chemin du dossier"
+
+# il faut que le chemin exite
+if (Test-Path $chemin) {
+
+    # Si le chemin existe, il delette tt ce qu'il y a dedans. 
+    Remove-Item "$chemin\*.log"
+
+} else {
+
+    # l'erreur du chemin qui est pas la 
+    Write-Warning "Le chemin n'existe pas"
+
+}
