@@ -37,3 +37,4 @@ if (Test-Path $fichier) {
     Write-Warning "Fichier introuvable"
 
 }
+#jules marsallon bts sio aubusson
