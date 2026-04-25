@@ -47,3 +47,4 @@ Add-Content $bureau $contenu
 # affichage 
 Write-Host $contenu
 Write-Host $contenu
+#jules marsallon bts sio aubusson
