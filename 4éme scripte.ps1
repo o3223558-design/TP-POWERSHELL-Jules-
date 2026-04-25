@@ -28,3 +28,4 @@ $nb1 / $nb2 = $division"
 
 # sa met la ligne dans un text
 Add-Content "historic.txt" $ligne
+#jules marsallon bts sio aubusson
