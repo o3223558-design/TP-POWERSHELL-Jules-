@@ -5,14 +5,14 @@ $fichier = Read-Host "chemin fichier liste"
 if (Test-Path $fichier) {
 
     #lit tout
-    $liste = Get-Content $fichier
-
-    foreach ($ligne in $liste) {
+    $list = Get-Content $fichier
+#tt les truc dans liste qui sont nomé ligne sa fait ce qu'il y a en dessous
+    foreach ($ligne in $list) {
 
         # Séparer le nom et le type (adm ou usr)
-        $data = $ligne.Split(":")
+        $data = $lign.Split(":")
 
-        $nom = $data[0]
+        $nom = $data[0]   
         $type = $data[1]
 
         #créer l'utilisateurs
