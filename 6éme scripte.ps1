@@ -4,10 +4,10 @@ $fichier = Read-Host "chemin du fichiers"
 #il existe ? 
 if (Test-Path $fichier) {
 
-    #lit tt 
+    #lit tout 
     $machines = Get-Content $fichier
 
-    # il crée et vide el fichier du rapport 
+    # il crée et vide le fichier du rapport 
     Set-Content "rapport.txt" ""
 
     # en gros il teste en boucle pour les ping
