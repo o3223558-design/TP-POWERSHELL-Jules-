@@ -34,3 +34,4 @@ switch ($choix) {
         Write-Warning "Mauvai choix"
     }
 }
+#jules marsallon bts sio aubusson
