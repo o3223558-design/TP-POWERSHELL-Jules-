@@ -8,3 +8,4 @@ Push-Location temp
     New-Item "$_.log" -ItemType File -Value "fichier $_"
 #$ le nom random ( 1//200) du fichier, 	"fichier $_" sa sa permet que dans le fichier sa soir marqué fichier 1 , fichier 2 etc
 }
+#jules marsallon bts sio aubusson
