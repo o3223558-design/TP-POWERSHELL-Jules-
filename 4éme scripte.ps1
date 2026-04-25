@@ -1,4 +1,4 @@
-#il demande le 1er nb
+#il demande le 1er nombre
 $nb1 = Read-Host "le premier nb"
 
 #demander le 2éme nombre
@@ -20,12 +20,12 @@ Write-Host "Soustraction : $soustraction"
 Write-Host "Produit : $produit"
 Write-Host "Division : $division"
 
-#sa crée une ligen de texte pour la parti historique
+#sa crée une ligne de texte pour la parti historique
 $ligne = "$nb1 + $nb2 = $somme 
 $nb1 - $nb2 = $soustraction 
 $nb1 * $nb2 = $produit 
 $nb1 / $nb2 = $division"
 
-# sa met la ligne dans un text
+# met la ligne dans un text
 Add-Content "historic.txt" $ligne
 #jules marsallon bts sio aubusson
