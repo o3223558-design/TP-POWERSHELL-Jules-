@@ -40,6 +40,7 @@ $bureau = "$env:USERPROFILE\Desktop\sommeil.txt"
 
 # sa met une ligne avec les info : heure , age , recommendé , et le temps de someil
 $contenu = "Sommeil : $sommeil h | Age : $age | Recommandé : $recommande h | Etat : $etat"
+# les pipe ( | ) sa permet d'avoir tt sur une seule ligne)
 
 #sa y met sur le bureau
 Add-Content $bureau $contenu
