@@ -1,4 +1,4 @@
-# demande la pose du fichier qui a la liste 
+# demande la position du fichier qui a la liste 
 $fichier = Read-Host "chemin fichier liste"
 
 #il existe ? 
@@ -6,7 +6,7 @@ if (Test-Path $fichier) {
 
     #lit tout
     $list = Get-Content $fichier
-#tt les truc dans liste qui sont nomé ligne sa fait ce qu'il y a en dessous
+#tout les truc dans liste qui sont nomé ligne sa fait ce qu'il y a en dessous
     foreach ($ligne in $list) {
 
         # Séparer le nom et le type (adm ou usr)
