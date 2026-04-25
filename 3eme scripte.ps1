@@ -1,6 +1,6 @@
 #demande chiffre a l'utilisateur
 $choix = Read-Host "nombre entre 1 et 5"
-# en gros switch permet de donner un choix 
+#switch permet de donner un choix 
 switch ($choix) {
     # 1 :créer un fichier
     1 {
